@@ -106,6 +106,13 @@ void traverse() {
 	}
 }
 
-
+void searchData() {
+	if (listEMpty()) {
+		cout << "List Kosong" << endl;
+		system("pause");
+		system("cls");
+		return;
+	}
+}
 
 
