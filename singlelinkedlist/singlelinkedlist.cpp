@@ -32,4 +32,10 @@ void addNode() {
 		return;
 	}
 
+	Node* previous = START;
+	Node* current = START;
+
 	
+
+
+
