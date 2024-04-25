@@ -26,10 +26,10 @@ void addNode() {
 			cout << "Nim sudah ada" << endl;
 			return;
 		}
+		
+		nodeBaru->next = START;
+		START = nodeBaru;
+		return;
 	}
 
-	Node* previous = START;
-	START = nodeBaru;
-	return;
-
-}
+	
